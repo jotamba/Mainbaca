@@ -190,6 +190,102 @@ body {
 }
 
 
+/** Berita **/
+.berita {
+    position: relative;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.berita .col-md-4 {
+    margin-bottom: 30px;
+}
+
+.berita .mn-img {
+    position: relative;
+    overflow: hidden;
+}
+
+.berita .mn-img img {
+    height: 350;
+    width: 225px;
+}
+
+.berita .mn-img:hover img {
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+}
+
+.berita .mn-title {
+    position: absolute;
+    top: 0; 
+    right: 0;
+    bottom: 0; 
+    left: 0;
+    padding: 15px 10px 15px 20px;
+    background-image: linear-gradient(rgba(0, 0, 0, .0), rgba(0, 0, 0, .3), rgba(0, 0, 0, .9));
+    display: flex;
+    align-items: flex-end;
+}
+
+.berita .mn-title a {
+    display: block;
+    width: 100%;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    transition: .3s;
+}
+
+.berita .mn-title a:hover {
+    color: #FF6F61;
+}
+
+.berita .mn-list {
+    margin-bottom: 30px;
+}
+
+.berita .mn-list h2 {
+    color: #000000;
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+    border-bottom: 3px double #000000;
+}
+
+.berita .mn-list ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.berita .mn-list ul li {
+    margin: 0 0 12px 22px; 
+}
+
+.berita .mn-list ul li:last-child {
+    margin-bottom: 0; 
+}
+
+.berita .mn-list ul li a {
+    color: #000000;
+    display: block;
+    line-height: 23px;
+}
+
+.berita .mn-list ul li::before {
+    position: absolute;
+    content: '\f061';
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    color: #000000;
+    left: 1px;
+}
+
+.berita .mn-list ul li a:hover {
+    color: #FF6F61;
+}
+
+
 /* Footer */
 .footer{
     background-color: #30333E;
@@ -256,7 +352,7 @@ body {
 #logomitra{
     width: 150px;
     height: 150px;
-    padding-top: 0%;
+    padding-top: 0;
 }
 
 .footer2{
