@@ -7,10 +7,11 @@ body {
     background: #ffffff;
 }
 
+/** Up Bar **/
 .upbar {
-    background: #ffffff;
-    margin: 15px 0;
-    
+    background: #728FCE;
+    height: 100px;
+    width: auto;
 }
 
 .upbar .b-logo {
@@ -24,6 +25,7 @@ body {
 }
 
 .upbar .b-search {
+    text-align: right;
     width: 100%;
 }
 
@@ -31,13 +33,13 @@ body {
     width: 100%;
     height: 40px;
     padding: 0 15px;
-    color: #71FC48;
-    border: 1px solid #003CFF;
+    color: #000000;
+    border: 2px solid #662d91;
     border-radius: 4px;
 }
 
 .upbar .b-search input[type=text]:focus {
-    border-color: #662d91;
+    border-color: #FF5733;
 }
 
 .upbar .b-search button {
@@ -57,9 +59,9 @@ body {
     color: #ffffff;
 }
 
-@media (min-width: 750px) {
+@media (min-width: 850px) {
     .upbar {
-        max-height: 90px;
+        max-height: 100px;
     }
 }
 
@@ -99,4 +101,9 @@ body {
 .up-btn i {
     padding-top: 9px;
     color: #ffffff;
+}
+
+/** Navbar **/
+.nav-bar {
+    position: relative;
 }
