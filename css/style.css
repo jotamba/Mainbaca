@@ -79,19 +79,19 @@ body {
 
 .up-btn {
     background: #662d91;
+    font-size: 16px;
+    text-align: center;
     width: 35px;
     height: 35px;
     position: fixed;
     display: none;
     color: #ffffff;
-    text-align: center;
     line-height: 1;
-    font-size: 16px;
     right: 15px;
     bottom: 15px;
-    transition: background 0.5s;
     border-radius: 4px;
     z-index: 11;
+    transition: background 0.5s;
 }
 
 .up-btn:hover {
@@ -103,9 +103,90 @@ body {
     color: #ffffff;
 }
 
+
+
 /** Navbar **/
 .nav-bar {
     position: relative;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.nav-bar.nav-sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .5);
+    z-index: 999;
+}
+
+.nav-bar .navbar {
+    height: 100%;
+    padding: 0;
+}
+
+.navbar-dark .navbar-nav .nav-link,
+.navbar-dark .navbar-nav .nav-link:focus,
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .nav-link.active {
+    padding: 10px 10px 8px 10px;
+    color: #ffffff;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .nav-link.active {
+    border-bottom: 2px solid #662d91;
+    transition: none;
+}
+
+.nav-bar .dropdown-menu {
+    margin-top: 0;
+    border: 0;
+    border-radius: 0;
+    background: #662d91;
+    text-shadow: #F4F4F4;
+}
+
+@media (min-width: 768px) {
+    .nav-bar,
+    .nav-bar .navbar {
+        background: #728FCE !important;
+    }
+    
+    .nav-bar .navbar-brand {
+        display: none;
+    }
+    
+    .nav-bar a.nav-link {
+        padding: 8px 15px;
+        font-size: 15px;
+        text-transform: uppercase;
+    }
+}
+
+@media (max-width: 768px) {   
+    .nav-bar,
+    .nav-bar .navbar {
+        padding: 3px 0;
+        background: #728FCE !important;
+    }
+    
+    .nav-bar a.nav-link {
+        padding: 5px;
+    }
+    
+    .nav-bar .dropdown-menu {
+        box-shadow: none;
+    }
+}
+
+
+
+/** Running Text **/
+.runningtext {
+    background-color: #597DCD;
+    position: relative;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 
