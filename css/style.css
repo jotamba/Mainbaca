@@ -10,7 +10,7 @@ body {
 /** Up Bar **/
 .upbar {
     background: #728FCE;
-    height: 100px;
+    height: 150px;
     width: auto;
 }
 
@@ -107,3 +107,81 @@ body {
 .nav-bar {
     position: relative;
 }
+
+
+/* Footer */
+.footer{
+    background-color: #30333E;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.mainbaca{
+    padding-left: 20px;
+    text-align: justify;
+}
+
+.pengertian1{
+    text-align: justify;
+    padding-right: 70px;
+}
+
+#logofooter{
+    width: 250px;
+    height: 100px;
+}
+
+.footer .berlangganan {
+    position: relative;
+    width: 100%;
+}
+
+.footer .berlangganan form {
+    position: relative;
+    width: 550px;
+}
+
+.footer .berlangganan input {
+    width: 100%;
+    height: 35px;
+    padding: 0 15px;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+}
+
+.footer .berlangganan .btn {
+    position: absolute;
+    width: 80px;
+    height: 35px;
+    top: 0;
+    right: 0;
+    padding: 0 15px;
+    border: none;
+    background: #111111;
+    color: #ffffff;
+    font-size: 14px;
+    border: 1px solid #ffffff;
+    border-radius: 0 4px 4px 0;
+}
+
+.footer .berlangganan .btn:hover {
+    background: #FF6F61;
+}
+
+.footer .berlangganan input:focus,
+.footer .berlangganan .btn:focus {
+    box-shadow: none;
+}
+
+#logomitra{
+    width: 150px;
+    height: 150px;
+    padding-top: 0%;
+}
+
+.footer2{
+    text-align: center;
+    background-color: #000000;
+    height: auto;
+    width: auto;
+}
+
